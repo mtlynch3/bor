@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/bor/static/css/main.a617e044.chunk.css",
-    "main.js": "/bor/static/js/main.50f75b51.chunk.js",
-    "main.js.map": "/bor/static/js/main.50f75b51.chunk.js.map",
+    "main.js": "/bor/static/js/main.27d8629b.chunk.js",
+    "main.js.map": "/bor/static/js/main.27d8629b.chunk.js.map",
     "runtime-main.js": "/bor/static/js/runtime-main.98565a11.js",
     "runtime-main.js.map": "/bor/static/js/runtime-main.98565a11.js.map",
-    "static/js/2.6e9ea431.chunk.js": "/bor/static/js/2.6e9ea431.chunk.js",
-    "static/js/2.6e9ea431.chunk.js.map": "/bor/static/js/2.6e9ea431.chunk.js.map",
+    "static/js/2.f01c8a1e.chunk.js": "/bor/static/js/2.f01c8a1e.chunk.js",
+    "static/js/2.f01c8a1e.chunk.js.map": "/bor/static/js/2.f01c8a1e.chunk.js.map",
     "static/js/3.ba07958e.chunk.js": "/bor/static/js/3.ba07958e.chunk.js",
     "static/js/3.ba07958e.chunk.js.map": "/bor/static/js/3.ba07958e.chunk.js.map",
     "index.html": "/bor/index.html",
     "static/css/main.a617e044.chunk.css.map": "/bor/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.6e9ea431.chunk.js.LICENSE.txt": "/bor/static/js/2.6e9ea431.chunk.js.LICENSE.txt"
+    "static/js/2.f01c8a1e.chunk.js.LICENSE.txt": "/bor/static/js/2.f01c8a1e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.98565a11.js",
-    "static/js/2.6e9ea431.chunk.js",
+    "static/js/2.f01c8a1e.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.50f75b51.chunk.js"
+    "static/js/main.27d8629b.chunk.js"
   ]
 }
