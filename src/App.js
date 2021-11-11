@@ -58,14 +58,14 @@ addDebit = (e) => {
     const HomePage = () => (
       <div>
         <h1>Welcome</h1> 
-        <Link to="/debits">Debits</Link>
+        <Link to="/bor/debits">Debits</Link>
       </div>
     );
     return (
         <Router>
           <Switch>
-            <Route exact path="/" render={HomePage} />
-            <Route exact path="/debits" render={DebitsComponent}/>
+            <Route exact path="/bor" render={HomePage} />
+            <Route exact path="/bor/debits" render={DebitsComponent}/>
           </Switch>
        
 
