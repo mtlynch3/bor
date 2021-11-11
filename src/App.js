@@ -61,7 +61,7 @@ addDebit = (e) => {
     return (
         <Router>
           <Switch>
-            <Route exact path="/" render={HomePage} />
+            <Route exact path="https://mtlynch3.github.io/bor/" render={HomePage} />
             <Route exact path="/debits" render={DebitsComponent}/>
           </Switch>
        
