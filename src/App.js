@@ -44,25 +44,28 @@ class App extends Component {
 
 
 addDebit = (e) => {
-    //send to debits view via props
-    //updates state based off user input
+  //send to debits view via props
+  //updates state based off user input
+  e.preventDefault();
+  const description  = e.target[0].value;
+  const amount  = Number(e.target[1].value);
+  console.log(description, amount);
 }
 
   render() {
     const { debits } = this.state;
-
     const DebitsComponent = () => (<Debits addDebit={this.addDebit} debits={debits} />);
     const HomePage = () => (
       <div>
         <h1>Welcome</h1> 
-        <Link to="/bor/debits">Debits</Link>
+        <Link to="/debits">Debits</Link>
       </div>
     );
     return (
         <Router>
           <Switch>
-            <Route exact path="/bor" render={HomePage} />
-            <Route exact path="/bor/debits" render={DebitsComponent}/>
+            <Route exact path="/" render={HomePage} />
+            <Route exact path="/debits" render={DebitsComponent}/>
           </Switch>
        
 
